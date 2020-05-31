@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h4 {
+  text-align: left;
+  margin-left: 40px;
+}
+
+hr {
+  border-top: 2px dotted #3f51b5;
+}
+
+button {
+  margin-right: 10px;
+  background: #3f51b5;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  width: 100px;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 1px #ccc;
+}
+
+/* For pdf */
+.react-pdf__Page {
+  margin-top: 10px;
+  padding-left: 40px;
+}
+.react-pdf__Page__textContent {
+  border: 1px solid darkgrey;
+  box-shadow: 5px 5px 5px 1px #ccc;
+  border-radius: 5px;
+}
+
+.react-pdf__Page__annotations.annotationLayer {
+  padding: 20px;
+}
+
+/* For all pages */
+.all-page-container {
+  height: 100%;
+  max-height: 500px;
+  overflow: auto;
+}
