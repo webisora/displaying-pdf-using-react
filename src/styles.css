@@ -26,7 +26,6 @@ button {
 /* For pdf */
 .react-pdf__Page {
   margin-top: 10px;
-  padding-left: 40px;
 }
 .react-pdf__Page__textContent {
   border: 1px solid darkgrey;
@@ -36,6 +35,10 @@ button {
 
 .react-pdf__Page__annotations.annotationLayer {
   padding: 20px;
+}
+
+.react-pdf__Page__canvas {
+  margin: 0 auto;
 }
 
 /* For all pages */
